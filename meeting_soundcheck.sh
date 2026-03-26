@@ -8,6 +8,9 @@
 
 SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 
+# --- Ensure PATH includes Homebrew (needed for launchd) ---
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
+
 # --- Load config ---
 CONFIG_FILE="$SCRIPT_DIR/config.sh"
 if [ ! -f "$CONFIG_FILE" ]; then
@@ -102,7 +105,8 @@ cleanup() {
 trap cleanup SIGINT SIGTERM
 
 # --- Main ---
-clear
+# Only clear screen if running in a terminal (not launchd)
+if [ -t 1 ]; then clear; fi
 echo "============================================"
 echo "  meeting-soundcheck"
 echo "============================================"
