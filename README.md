@@ -6,7 +6,7 @@ Inspired by the viral trend of playing BBC News / AajTak theme music before meet
 
 ## Demo
 
-<video src="https://github.com/udbhateja/meeting-soundcheck/raw/master/assets/demo.mp4" controls width="600"></video>
+https://github.com/user-attachments/assets/cbf78a27-f9ec-45ee-9773-83efcad06b9c
 
 ## Requirements
 
