@@ -4,6 +4,10 @@ Play a custom entrance sound before your Microsoft Teams meetings — like a new
 
 Inspired by the viral trend of playing BBC News / AajTak theme music before meetings.
 
+## Demo
+
+https://github.com/udbhateja/meeting-soundcheck/raw/master/assets/demo.mp4
+
 ## Requirements
 
 - macOS (uses native calendar integration)
