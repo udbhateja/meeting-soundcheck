@@ -1,0 +1,9 @@
+.DS_Store
+sounds/*.mp3
+sounds/*.aiff
+sounds/*.wav
+sounds/*.m4a
+!sounds/.gitkeep
+/tmp/
+*.log
+*.err
