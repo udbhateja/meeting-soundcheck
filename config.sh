@@ -7,10 +7,10 @@
 
 # How many seconds before the meeting to play the sound
 # Examples: 15 = 15 seconds, 60 = 1 minute, 300 = 5 minutes
-LEAD_TIME_SECONDS=600
+LEAD_TIME_SECONDS=15
 
 # How often to check for upcoming meetings (in seconds)
-CHECK_INTERVAL=15
+CHECK_INTERVAL=10
 
 # Path to your custom sound file
 # Leave empty to auto-detect from sounds/ folder
